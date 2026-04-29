@@ -1,0 +1,29 @@
+{
+  "title": "Scientists Discover New Species of Deep-Sea Fish in Pacific Ocean",
+  "content": "Marine biologists at the Oceanographic Institute announced on Monday the discovery of a previously unknown species of deep-sea fish, Bathynomus giganteus var. pacificus, found at depths between 800 and 1,200 metres in the Pacific Ocean. \"This is an extraordinary find,\" said lead researcher Dr. Elena Kowalski. \"The specimen has 14 light-producing photophores along its lateral line, which is unprecedented for this family.\" The research team, comprising 23 scientists from 6 countries, spent 18 months analysing the DNA, morphology and behaviour of the species before publishing their findings in the peer-reviewed journal Nature Marine Biology. The discovery was funded by a $3.2 million grant from the International Ocean Fund.",
+  "source_url": "https://reuters.com/science/deep-sea-fish-2024",
+  "author": "Dr. Alan Porter",
+  "published_at": "2024-03-20T08:30:00",
+  "image_urls": [
+    "https://reuters.com/images/fish-1.jpg",
+    "https://reuters.com/images/fish-2.jpg"
+  ],
+  "metadata": {},
+  "propagation": {
+    "nodes": [
+      {"node_id": "orig",    "platform": "twitter",  "user_id": "reuters_official",  "timestamp": "2024-03-20T09:00:00", "share_count": 4500, "is_verified_account": true},
+      {"node_id": "retweet1","platform": "twitter",  "user_id": "science_fan",       "timestamp": "2024-03-20T09:45:00", "parent_id": "orig",    "share_count": 210},
+      {"node_id": "retweet2","platform": "twitter",  "user_id": "ocean_lover",       "timestamp": "2024-03-20T10:15:00", "parent_id": "orig",    "share_count": 180},
+      {"node_id": "fb_post", "platform": "facebook", "user_id": "nature_page",       "timestamp": "2024-03-20T11:00:00", "parent_id": "orig",    "share_count": 320, "is_verified_account": true},
+      {"node_id": "reddit1", "platform": "reddit",   "user_id": "u/deepseaenthusiast","timestamp": "2024-03-20T12:30:00","parent_id": "fb_post", "share_count": 95},
+      {"node_id": "reddit2", "platform": "reddit",   "user_id": "u/marinebiology",   "timestamp": "2024-03-20T14:00:00", "parent_id": "fb_post", "share_count": 67}
+    ],
+    "edges": [
+      ["orig",    "retweet1"],
+      ["orig",    "retweet2"],
+      ["orig",    "fb_post"],
+      ["fb_post", "reddit1"],
+      ["fb_post", "reddit2"]
+    ]
+  }
+}
