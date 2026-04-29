@@ -1,0 +1,23 @@
+{
+  "title": "SHOCKING!!! GOVERNMENT HIDING CURE FOR ALL DISEASES – MUST SHARE BEFORE DELETED!!!",
+  "content": "INCREDIBLE unbelievable EXPLOSIVE secret exposed!!! A brave whistleblower has revealed that the government has been HIDING a miracle cure for ALL diseases for DECADES!!! Big Pharma and the deep state are COVERING UP this incredible discovery!!! SHARE this VIRAL bombshell before it gets CENSORED!!! They don't want you to know the truth!!! This OUTRAGEOUS scandal will shock you!!! Anonymous sources confirm the hoax perpetrated on ordinary citizens for years.",
+  "source_url": "https://beforeitsnews.com/conspiracy/cure-coverup",
+  "published_at": null,
+  "image_urls": [],
+  "metadata": {},
+  "propagation": {
+    "nodes": [
+      {"node_id": "src",  "platform": "facebook", "user_id": "anon_truth",  "timestamp": "2024-03-18T03:00:00", "share_count": 12000},
+      {"node_id": "r1",   "platform": "facebook", "user_id": "user_a",      "timestamp": "2024-03-18T03:30:00", "parent_id": "src", "share_count": 3400},
+      {"node_id": "r2",   "platform": "facebook", "user_id": "user_b",      "timestamp": "2024-03-18T04:00:00", "parent_id": "src", "share_count": 2800},
+      {"node_id": "r3",   "platform": "facebook", "user_id": "user_c",      "timestamp": "2024-03-18T04:30:00", "parent_id": "src", "share_count": 2100},
+      {"node_id": "r4",   "platform": "telegram", "user_id": "chan_truth",   "timestamp": "2024-03-18T05:00:00", "parent_id": "src", "share_count": 890},
+      {"node_id": "r5",   "platform": "twitter",  "user_id": "conspiracy99", "timestamp": "2024-03-18T05:45:00", "parent_id": "r4",  "share_count": 450},
+      {"node_id": "r6",   "platform": "twitter",  "user_id": "wake_up_now",  "timestamp": "2024-03-18T06:30:00", "parent_id": "r4",  "share_count": 310}
+    ],
+    "edges": [
+      ["src", "r1"], ["src", "r2"], ["src", "r3"], ["src", "r4"],
+      ["r4",  "r5"], ["r4",  "r6"]
+    ]
+  }
+}
