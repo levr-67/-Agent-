@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from datetime import datetime
 
 import pytest
@@ -300,11 +301,9 @@ class TestReportGenerationAgent:
         assert path.endswith(".html")
 
     def test_batch_creates_file(self, tmp_path, credible_item, fake_item):
-        from fake_news_detection.models.news import NewsItem
         agent = ReportGenerationAgent(output_dir=str(tmp_path))
         reports = [self._make_report(credible_item), self._make_report(fake_item)]
         path = agent.process_batch(reports)
         assert os.path.exists(path)
 
 
-import os

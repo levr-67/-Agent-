@@ -12,7 +12,7 @@ from typing import List
 _SENSATIONAL_WORDS = {
     "shocking", "unbelievable", "explosive", "bombshell", "breaking",
     "exclusive", "urgent", "exposed", "scandal", "outrage", "outrageous",
-    "terrifying", "horrifying", "incredible", "amazing", "incredible",
+    "terrifying", "horrifying", "incredible", "amazing",
     "miracle", "secret", "hidden", "conspiracy", "hoax", "cover-up",
     "coverup", "deep state", "fake", "fraud", "lie", "lies", "liar",
     "unprecedented", "historic", "emergency", "alert", "warning",
